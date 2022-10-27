@@ -11,7 +11,7 @@ variable "aws_secret_key" {
 variable "aws_region" {
     type = string
     description = "AWS REGION"
-    default = "us-west-2"
+    default = "us-east-1"
 }
 variable "enable_dns_hostnames" {
     type = bool
