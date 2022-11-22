@@ -9,7 +9,7 @@ variable "AWS_SECRET_ACCESS_KEY" {
 variable "aws_region" {
     type = string
     description = "AWS REGION"
-    default = "us-east-1"
+    default = "us-west-2"
 }
 variable "enable_dns_hostnames" {
     type = bool
